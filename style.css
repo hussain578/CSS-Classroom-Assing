@@ -1,0 +1,194 @@
+header{
+    width: 100%;
+    height: 64px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.37);
+}
+
+
+
+
+.nav-left{
+    width: 500px;
+    height: 64px;
+    margin-left: 20px;
+    align-items: center;
+    display: inline-block;
+    
+}
+.icon{
+    width:48px;
+    height: 48px;
+    display: inline-block;
+    
+}
+.img1{
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+    display: inline-block;
+    
+}
+
+.text1{
+  display: inline-block;
+  margin-left: 20px;
+  height: 25px;
+}
+.text1 h2{
+    color:rgb(95, 99, 104) ;
+    cursor: pointer;
+    font-family:"Google Sans", Roboto, Arial, sans;
+    height: 25px;    
+}
+
+.text1 h2:hover{
+    color: rgb(30, 142, 62);
+    text-decoration: underline;
+}
+.nav-right{
+display: inline-block;
+margin-left: 255px;
+}
+
+
+.img2{
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+    border-radius: 50%;
+    
+
+}
+.img3{
+    
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+
+}
+main{
+    
+    margin: 0%;
+    width: 100%;
+}
+aside{
+    
+    width: 30%;
+    height: 1000px;
+    border-right: 2px solid rgba(0, 0, 0, 0.315);
+    display: inline-block;
+}
+.sid-nav{
+    height: 50px;
+    text-transform: uppercase;
+    
+}
+.sid-nav:hover {
+    background-color: rgb(174, 174, 182);
+    border-radius: 0 2rem 2rem 0;
+    cursor: pointer;
+    
+}
+.sid-nav button{
+    
+    background-color: rgb(25,103,210);
+    border-radius: 50%;
+padding: 10px;
+}
+.sid-nav .but2{
+    border-radius: 50%;
+    
+    background-color:rgb(19,115,51) ;
+    padding: 10px;
+}
+
+ .sid-nav .but3{
+    
+    background-color: rgb(194,100,1); ;
+    border-radius: 50%;
+padding: 10px;
+}
+.sid-nav p{
+    margin-left: 20px;
+    display: inline-block;
+    
+}
+.right-side{
+    display: inline-block;
+    margin-left: 50px;
+    position: absolute;
+    
+    
+    
+    
+}
+.card-cont{
+    margin-top: 50px;
+border: 1px solid #ccc;
+border-radius: 15px;
+cursor: pointer;
+width: 250px;
+display: inline-block;
+float: right;
+margin-right: 30px;
+
+
+}
+
+.card-header{
+    
+    background-image: url(images/card\ 1.jpg)  ;
+background-size:contain ;
+background-repeat: no-repeat;
+border-start-end-radius:15px ;
+border-start-start-radius:15px ;
+color: #ffffff;
+
+}
+.card-header>.text{
+    display: inline-block;
+    font-size: medium;
+    margin-left: 10px;
+}
+.text:hover{
+    text-decoration: underline;
+}
+.text2{
+
+    position:relative;
+    bottom: 20px;
+    left: 10px;
+}
+.text2:hover{
+text-decoration: underline ;
+}
+.card-header>.icon2{float: right;
+margin-top: 10px;
+margin-right: 10px;
+}
+.card-main{
+    height: 150px;
+border-bottom : 1px solid #ccc ;
+
+}
+.card-main img{
+    border-radius: 50%;
+    width: 80px;
+    float: right;
+    margin-right: 10px;
+    position: relative;
+    margin-top: -4.09375rem;
+}
+.card-foter{
+height: 57px;
+text-align: right;
+margin-top: 10px;
+
+}
+.card-foter i{
+    font-size: 22px;
+    margin-right: 10px;
+    
+}
+
